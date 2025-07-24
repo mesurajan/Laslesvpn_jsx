@@ -159,11 +159,13 @@ margin-bottom: 40px;
     max-width: 950px;
     height: 600px;
     margin-top: 20px;
-    padding-right: 200px;
+    padding-right: 100px;
+    padding-left: 150px;
   
 }
 .feature__text{
     max-width: 600px;
+    padding-left: 100px;
 }
 .feature__title{
     font-size: 60px;
@@ -179,6 +181,7 @@ margin-bottom: 40px;
     list-style: none;
     padding: 0;
     margin: 0;
+    
 }
 .features-list li{
     text-decoration: none;

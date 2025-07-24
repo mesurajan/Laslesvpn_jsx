@@ -2,6 +2,10 @@ import React from 'react';
 import './App.css'
 import Logo from './assets/images/logo.png'
 import home from './assets/images/home_image.png'
+import image02 from './assets/images/image02.png'
+import location from './assets/images/location.png'
+import servers from './assets/images/servers.png'
+import user from './assets/images/user.png'
 
 function App() {
   return (
@@ -43,7 +47,6 @@ function App() {
           </div>
 
           <div className="home__image">
-            
             <img src={home} alt="hero" className="home__image" />
           </div>
         </div>
@@ -53,7 +56,8 @@ function App() {
         <div className="user-number">
           <div className="user-num-first">
             <div className="user-num-img">
-              <img src="Assets/user.png" alt="Users" className="user-num-img" />
+              
+                <img src={user} alt="Users" className="user-num-img" />
             </div>
             <div className="user-num-text">
               <p><strong className="bold">90+</strong><br />Users</p>
@@ -62,7 +66,7 @@ function App() {
 
           <div className="user-num-first">
             <div className="user-num-img">
-              <img src="Assets/location.png" alt="Locations" className="user-num-img" />
+                <img src={location} alt="Locations" className="user-num-img" />
             </div>
             <div className="user-num-text">
               <p><strong className="bold">30+</strong><br />Locations</p>
@@ -71,7 +75,7 @@ function App() {
 
           <div className="user-num-first">
             <div className="user-num-img">
-              <img src="Assets/servers.png" alt="Servers" className="user-num-img" />
+                <img src={servers} alt="Servers" className="user-num-img" />
             </div>
             <div className="user-num-text">
               <p><strong className="bold">50+</strong><br />Servers</p>
@@ -83,7 +87,7 @@ function App() {
       <section id="features" className="features">
         <div className="feature__content">
           <div className="feature__image-02">
-            <img src="Assets/image02.png" alt="Feature" className="feature_image-02" />
+            <img src={image02} alt="Feature" className="featur_image-02" />
           </div>
 
           <div className="feature__text">
